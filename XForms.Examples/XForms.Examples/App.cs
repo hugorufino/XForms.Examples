@@ -26,7 +26,7 @@ namespace XForms.Examples
                         }
                     }
                 }
-            };            
+            };          
             
             //MainPage = new NavigationPage(new Main());
         }

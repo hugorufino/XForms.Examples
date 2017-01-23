@@ -22,8 +22,6 @@ namespace XForms.Examples.Navigation
             btnOnPlatform.Clicked += BtnOnPlatform_Clicked;
             btnPhoneWord.Clicked += BtnPhoneWord_Clicked;
 
-            NavigationPage.SetHasBackButton(this, false);
-            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         private void BtnPhoneWord_Clicked(object sender, EventArgs e)

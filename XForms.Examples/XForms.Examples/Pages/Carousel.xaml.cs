@@ -13,9 +13,6 @@ namespace XForms.Examples.Pages
         public Carousel()
         {
             InitializeComponent();
-
-            NavigationPage.SetHasBackButton(this, false);
-            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

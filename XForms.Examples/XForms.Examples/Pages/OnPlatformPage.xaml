@@ -12,7 +12,7 @@
              HorizontalOptions="FillAndExpand">
     <Label.FontSize>
       <OnPlatform x:TypeArguments="x:Double"
-                  iOS="20"
+                  iOS="50"
                   Android="22"
                   WinPhone="5"
                   />
