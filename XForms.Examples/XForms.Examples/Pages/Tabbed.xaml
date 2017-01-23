@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XForms.Examples.Pages.Tabbed"
+             xmlns:page="clr-namespace:XForms.Examples.Pages;assembly=XForms.Examples">
+
+
+  <NavigationPage Title="Page 1">
+    <x:Arguments>
+      <page:Page1></page:Page1>
+    </x:Arguments>
+  </NavigationPage>
+  <NavigationPage Title="Page 2">
+    <x:Arguments>
+      <page:Page2></page:Page2>
+    </x:Arguments>
+  </NavigationPage>
+  <NavigationPage Title="Page 3">
+    <x:Arguments>
+      <page:Page3></page:Page3>
+    </x:Arguments>
+  </NavigationPage>
+</TabbedPage>

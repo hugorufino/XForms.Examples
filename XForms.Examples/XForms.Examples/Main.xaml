@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XForms.Examples.Navigation.Main">
+  <StackLayout>
+    <Label Text="Xamarin Forms Exemples" VerticalOptions="Center" HorizontalOptions="Center" />
+    <Button Text="Carousel" x:Name="btnCarousel" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+    <Button Text="Tabbed" x:Name="btnTabbed" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+    <Button Text="Style" x:Name="btnStyle" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+    <Button Text="Binding" x:Name="btnBinding" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+    <Button Text="OnPlatform" x:Name="btnOnPlatform" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+    <Button Text="Effects" x:Name="btnEffects" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+    <Button Text="PhoneWord" x:Name="btnPhoneWord" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+  </StackLayout>
+</ContentPage>
