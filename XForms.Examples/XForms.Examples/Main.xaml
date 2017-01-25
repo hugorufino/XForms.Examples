@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XForms.Examples.Navigation.Main">
   <StackLayout>
-    <Label Text="Xamarin Forms Exemples" VerticalOptions="Center" HorizontalOptions="Center" />
-    <Button Text="Carousel" x:Name="btnCarousel" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+    <Label Text="Xamarin Forms Exemples" VerticalOptions="Center" HorizontalOptions="Center" />    
     <Button Text="Tabbed" x:Name="btnTabbed" VerticalOptions="Center" HorizontalOptions="Center"></Button>
     <Button Text="Style" x:Name="btnStyle" VerticalOptions="Center" HorizontalOptions="Center"></Button>
     <Button Text="Binding" x:Name="btnBinding" VerticalOptions="Center" HorizontalOptions="Center"></Button>

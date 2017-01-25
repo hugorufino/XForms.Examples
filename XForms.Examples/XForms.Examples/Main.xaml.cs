@@ -14,7 +14,6 @@ namespace XForms.Examples.Navigation
         public Main()
         {
             InitializeComponent();
-            btnCarousel.Clicked += BtnCarousel_Clicked;
             btnTabbed.Clicked += BtnTabbed_Clicked;
             btnStyle.Clicked += BtnStyle_Clicked;
             btnBinding.Clicked += BtnBinding_Clicked;
@@ -52,11 +51,6 @@ namespace XForms.Examples.Navigation
         private void BtnTabbed_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Tabbed());
-        }
-
-        private void BtnCarousel_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new Carousel());
-        }
+        }        
     }
 }
