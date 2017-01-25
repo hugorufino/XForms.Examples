@@ -10,5 +10,6 @@
     <Button Text="OnPlatform" x:Name="btnOnPlatform" VerticalOptions="Center" HorizontalOptions="Center"></Button>
     <Button Text="Effects" x:Name="btnEffects" VerticalOptions="Center" HorizontalOptions="Center"></Button>
     <Button Text="PhoneWord" x:Name="btnPhoneWord" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+    <Button Text="MVVM" x:Name="btnMVVM" VerticalOptions="Center" HorizontalOptions="Center"></Button>
   </StackLayout>
 </ContentPage>

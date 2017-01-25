@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using XForms.Examples.MVVM.Views;
 using XForms.Examples.Pages;
 
 namespace XForms.Examples.Navigation
@@ -20,7 +21,12 @@ namespace XForms.Examples.Navigation
             btnEffects.Clicked += BtnEffects_Clicked;
             btnOnPlatform.Clicked += BtnOnPlatform_Clicked;
             btnPhoneWord.Clicked += BtnPhoneWord_Clicked;
+            btnMVVM.Clicked += BtnMVVM_Clicked;
+        }
 
+        private void BtnMVVM_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AlertePage());
         }
 
         private void BtnPhoneWord_Clicked(object sender, EventArgs e)

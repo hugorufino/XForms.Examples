@@ -38,6 +38,12 @@
     <Compile Include="App.cs" />
     <Compile Include="Core\IDialer.cs" />
     <Compile Include="Core\PhonewordTranslator.cs" />
+    <Compile Include="MVVM\Helper\AlerteHelper.cs" />
+    <Compile Include="MVVM\Models\Alerte.cs" />
+    <Compile Include="MVVM\ViewModels\AlerteViewModel.cs" />
+    <Compile Include="MVVM\Views\AlertePage.xaml.cs">
+      <DependentUpon>AlertePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\BindingPage.xaml.cs">
       <DependentUpon>BindingPage.xaml</DependentUpon>
     </Compile>
@@ -153,6 +159,13 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\Phoneword.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="MVVM\Views\AlertePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
